@@ -1,10 +1,10 @@
-import { LoginComponent } from './components/screens/LoginComponent/LoginComponent'
+import { AppRouter } from "./routes/AppRouter"
 
 function App() {
 
   return (
     <>
-      <LoginComponent />
+      <AppRouter  />
     </>
   )
 }
